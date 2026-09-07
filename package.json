@@ -12,7 +12,8 @@
     "build": "vite build",
     "start": "tsx server/index.ts",
     "test:engines": "tsx tests/runAllTests.ts",
-    "db:seed": "tsx server/db/seed.ts"
+    "db:seed": "tsx server/db/seed.ts",
+    "reset-admin": "tsx server/scripts/resetAdmin.ts"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
